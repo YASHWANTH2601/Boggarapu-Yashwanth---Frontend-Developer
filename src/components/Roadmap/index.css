@@ -242,9 +242,7 @@
   .questions {
     width: 675px;
     height: 331px;
-    gap: 0px;
     border-radius: 20px;
-    opacity: 0px;
   }
   .questions > li {
     margin-bottom: 30px;
