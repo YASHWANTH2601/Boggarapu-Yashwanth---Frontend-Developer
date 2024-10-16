@@ -1,0 +1,51 @@
+.features {
+  margin-top: 100px;
+  text-align: center;
+}
+.feauturesHeading {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  width: 237px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.featureContainersTop {
+  display: flex;
+}
+.featureContainersBottom {
+  display: flex;
+}
+@media screen and (max-width: 756px) {
+  .mobileViews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .desktopFeatureView {
+    display: none;
+  }
+}
+@media screen and (min-width: 756px) {
+  .mobileViews {
+    display: none;
+  }
+  .feauturesHeading {
+    display: none;
+  }
+  .desktopFeatureView {
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.imgs {
+  margin-bottom: 20px;
+}

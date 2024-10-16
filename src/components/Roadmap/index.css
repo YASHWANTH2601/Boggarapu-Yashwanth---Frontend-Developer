@@ -1,0 +1,325 @@
+.roadmapContainer {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  margin-top: 200px;
+}
+.roadmapHeading {
+  width: 177px;
+  height: 44px;
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.robotHandContainer {
+  background-image: linear-gradient(
+      180deg,
+      #00161d 0%,
+      rgba(0, 22, 29, 0) 37.69%
+    ),
+    linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161d 100%),
+    linear-gradient(270deg, rgba(0, 22, 29, 0) 82.85%, #00161d 100%);
+}
+.robotHandVideo {
+  z-index: -1;
+}
+
+.phaseHead {
+  width: 71px;
+  height: 28px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  color: black;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+
+.phaceSideHeading {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: var(--lineheight40);
+  letter-spacing: var(--letterspacing-072);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.phase1 {
+  display: flex;
+}
+
+.eachPhaceContainer {
+  width: Fill (350px) px;
+  height: Hug (300px) px;
+  gap: 48px;
+  /* padding: 20px; */
+}
+.eachPhaceText {
+  font-family: var(--fontfamilyFont1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--lineheight26);
+  letter-spacing: var(--letterspacing-01);
+  text-align: left;
+}
+
+.frequentlyHeading {
+  /* display: flex; */
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+}
+.questionsContainer {
+  display: flex;
+  /* margin-top: 500px; */
+}
+.exploreContainer {
+  border-radius: 20px;
+  margin: 0px auto;
+  border: 1px;
+  /* background-color: #00c2db80; */
+  box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.exploreHeading {
+  width: 290px;
+  height: 40px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+.dapp {
+  color: #62f0fe;
+}
+.explorePara {
+  margin: 30px auto;
+}
+.mobileOpens {
+  color: black;
+  background-color: #cdfcff;
+  width: 131px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+}
+.bottomlogoContainer {
+  width: 150px;
+  height: 52px;
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.bottomLogo {
+  width: 50px;
+}
+.socialMediaIcons {
+  display: flex;
+}
+.socialMediaIcons > li {
+  margin-right: 20px;
+}
+.EthaiHeading {
+  width: 96px;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+}
+@media screen and (max-width: 756px) {
+  .phase1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .robotHandVideo {
+    width: 350px;
+    /* height: 350px; */
+    height: 100%;
+    zoom: 500%;
+    z-index: -1;
+  }
+  .questionsContainer {
+    flex-direction: column;
+    margin: 100px auto 0px auto;
+    width: 390px;
+    height: 595px;
+    max-width: var(--width1200);
+    padding: 64px 24px 32px 24px;
+  }
+  .frequentlyHeading {
+    width: 342px;
+    height: 88px;
+    margin-bottom: 50px;
+  }
+  .questions {
+    width: 342px;
+    height: 379px;
+    border-radius: 20px;
+  }
+  .questions > li {
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  .exploreContainer {
+    width: 350px;
+    height: 474px;
+  }
+  .exploreHeading {
+    margin: 0px 30px;
+    padding: 56px 0px;
+  }
+  .explorePara {
+    width: 326px;
+    height: 216px;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  .mobileOpens {
+    margin: 0px auto;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 254px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    margin: 0px auto;
+  }
+  .bottomlogoContainer {
+    margin: 40px auto;
+  }
+  .emailedContainer {
+    display: none;
+  }
+}
+@media screen and (min-width: 756px) {
+  .phase1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .robotHandVideo {
+    width: 350px;
+    /* height: 350px; */
+    height: 100%;
+    zoom: 200%;
+  }
+  .robotHandContainer {
+    display: flex;
+    height: 500px;
+  }
+  .questionsContainer {
+    flex-direction: row;
+    margin: 50px auto 0px auto;
+    width: Fixed (1, 200px) px;
+    height: Hug (551px) px;
+    max-width: 1200px;
+    padding: 100px 108px 120px 141px;
+  }
+  .frequentlyHeading {
+    width: 385px;
+    height: 128px;
+    padding: 20px 0px 20px 0px;
+    width: 385px;
+    height: 88px;
+  }
+  .questions {
+    width: 675px;
+    height: 331px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+  }
+  .questions > li {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .exploreContainer {
+    width: 960px;
+    height: 382px;
+    border-radius: 20px;
+    border: 1px;
+    margin-bottom: 90px;
+  }
+  .exploreHeading {
+    margin: 0px auto;
+    padding: 50px 0px;
+  }
+  .explorePara {
+    color: #b0faffb2;
+    width: 703px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .mobileOpens {
+    margin: 0px auto;
+  }
+  .bottomlogoContainer {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 800px; */
+    height: 240px;
+    padding: 0px 66px;
+  }
+  .emailedContainer {
+    display: inline;
+  }
+  .designedPara {
+    width: 480px;
+    height: 88px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .whatEmail {
+    width: 434px;
+    height: 52px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 18px;
+    border: gray 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.42px;
+    text-align: left;
+  }
+  .getStarted {
+    width: 135px;
+    height: 44px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 40px 0px #8bf9e833 inset;
+    backdrop-filter: blur(7.5px);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+}

@@ -1,0 +1,144 @@
+.logo {
+  width: 24px;
+  height: 24px;
+}
+.Hamburger {
+  width: 20px;
+  height: 2px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.Hamburger1 {
+  margin-bottom: 10px;
+}
+.Hamburger {
+  width: 20px;
+  height: 2px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.Hamburger1 {
+  margin-bottom: 10px;
+}
+.logoHeading {
+  color: white;
+}
+
+.mobileView {
+  background-color: #0f373c;
+  margin: 16px 9.7px;
+  width: 100vw;
+  height: 64px;
+  border-radius: 48px;
+  border: var(--strokeweight1);
+  padding: 0px 30px;
+}
+
+.DisplayView {
+  color: white;
+}
+.desktoplogo {
+  width: 30px;
+  height: 30px;
+}
+.logoContainer {
+  display: flex;
+  width: Fixed (202px) px;
+  height: Hug (36px) px;
+  margin-top: 32px;
+  margin-left: 62.5px;
+  gap: 5px;
+}
+
+.logoHeading {
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.03200000151991844px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 653px;
+  height: 64px;
+  padding: 20px;
+  border-radius: 48px;
+  border: var(--strokeweight1);
+  background-color: #0f373c;
+  margin-top: 22px;
+}
+.listContainer > li {
+  /* //styleName: qubic.org/Space Grotesk/Medium 16; */
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 500;
+  line-height: var(--itemspacingm);
+  letter-spacing: var(--letterspacing-016);
+  text-align: left;
+  color: #b0faffb2;
+}
+.buttonContainer {
+  width: Hug (210.71px) px;
+  height: Hug (48px) px;
+  gap: 24px;
+  margin-top: 32px;
+  margin-right: 69px;
+}
+.login {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 500;
+  line-height: var(--lineheight22);
+  letter-spacing: var(--letterspacing-003);
+  text-align: left;
+}
+.whitepaper {
+  width: Fixed (139.71px) px;
+  height: Hug (44px) px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  background-color: #cdfcff;
+  color: black;
+  margin-left: 20px;
+}
+@media screen and (max-width: 756px) {
+  .mobileView {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoHeading {
+    display: none;
+  }
+  .DisplayView {
+    display: none;
+  }
+}
+@media screen and (min-width: 756px) {
+  .mobileView {
+    display: none;
+  }
+  .logoHeading {
+    display: inline;
+  }
+  .DisplayView {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .buttonContainer {
+    display: flex;
+    margin-left: 20px;
+  }
+  .listContainer {
+    margin-left: 50px;
+  }
+}
